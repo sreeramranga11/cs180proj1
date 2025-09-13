@@ -1,0 +1,172 @@
+{
+  "church_color.jpg": {
+    "g": [
+      25,
+      4
+    ],
+    "r": [
+      58,
+      -4
+    ]
+  },
+  "emir_color.jpg": {
+    "g": [
+      49,
+      23
+    ],
+    "r": [
+      107,
+      40
+    ]
+  },
+  "harvesters_color.jpg": {
+    "g": [
+      60,
+      17
+    ],
+    "r": [
+      123,
+      14
+    ]
+  },
+  "icon_color.jpg": {
+    "g": [
+      42,
+      17
+    ],
+    "r": [
+      90,
+      23
+    ]
+  },
+  "italil_color.jpg": {
+    "g": [
+      38,
+      22
+    ],
+    "r": [
+      77,
+      36
+    ]
+  },
+  "lastochikino_color.jpg": {
+    "g": [
+      -3,
+      -2
+    ],
+    "r": [
+      76,
+      -8
+    ]
+  },
+  "lugano_color.jpg": {
+    "g": [
+      41,
+      -17
+    ],
+    "r": [
+      93,
+      -29
+    ]
+  },
+  "melons_color.jpg": {
+    "g": [
+      81,
+      10
+    ],
+    "r": [
+      178,
+      13
+    ]
+  },
+  "self_portrait_color.jpg": {
+    "g": [
+      79,
+      30
+    ],
+    "r": [
+      176,
+      37
+    ]
+  },
+  "siren_color.jpg": {
+    "g": [
+      49,
+      -6
+    ],
+    "r": [
+      96,
+      -25
+    ]
+  },
+  "three_generations_color.jpg": {
+    "g": [
+      53,
+      13
+    ],
+    "r": [
+      111,
+      10
+    ]
+  },
+  "cathedral_color.jpg": {
+    "g": [
+      5,
+      2
+    ],
+    "r": [
+      12,
+      3
+    ]
+  },
+  "extra_example_1_color.jpg": {
+    "g": [
+      -3,
+      1
+    ],
+    "r": [
+      -4,
+      1
+    ]
+  },
+  "extra_example_2_color.jpg": {
+    "g": [
+      5,
+      -1
+    ],
+    "r": [
+      10,
+      -3
+    ]
+  },
+  "extra_example_3_color.jpg": {
+    "g": [
+      2,
+      3
+    ],
+    "r": [
+      11,
+      6
+    ]
+  },
+  "monastery_color.jpg": {
+    "g": [
+      -3,
+      2
+    ],
+    "r": [
+      3,
+      2
+    ]
+  },
+  "tobolsk_color.jpg": {
+    "g": [
+      3,
+      3
+    ],
+    "r": [
+      6,
+      3
+    ]
+  }
+}
