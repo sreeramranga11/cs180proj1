@@ -260,21 +260,21 @@
               <div class="bd">
                 <h6>Single image</h6>
                 <ul>
-                  <li>Small JPG (single-scale NCC): <code>python proj1_colorizer.py --input data/cathedral.jpg --method single --metric ncc --max-radius 15 --auto-crop</code></li>
-                  <li>Large TIF (pyramid + edges): <code>python proj1_colorizer.py --input data/emir.tif --method pyramid --metric edges5 --auto-crop</code></li>
+                  <li>Small JPG (single-scale NCC): <code>python code/proj1_colorizer.py --input data/cathedral.jpg --method single --metric ncc --max-radius 15 --auto-crop</code></li>
+                  <li>Large TIF (pyramid + edges): <code>python code/proj1_colorizer.py --input data/emir.tif --method pyramid --metric edges5 --auto-crop</code></li>
                 </ul>
                 <h6 class="mt-3">Batch everything</h6>
                 <pre class="code mb-0"># TIFs: pyramid + edges5
 for f in data/*.tif; do
   [ -e "$f" ] || continue
-  python proj1_colorizer.py --input "$f" --method pyramid --metric edges5 --auto-crop \
+  python code/proj1_colorizer.py --input "$f" --method pyramid --metric edges5 --auto-crop \
     --output "output/$(basename "${f%.*}")_color.jpg"
 done
 
 # JPGs: single-scale + NCC
 for f in data/*.jpg; do
   [ -e "$f" ] || continue
-  python proj1_colorizer.py --input "$f" --method single --metric ncc --max-radius 15 --auto-crop \
+  python code/proj1_colorizer.py --input "$f" --method single --metric ncc --max-radius 15 --auto-crop \
     --output "output/$(basename "${f%.*}")_color.jpg"
 done</pre>
               </div>
